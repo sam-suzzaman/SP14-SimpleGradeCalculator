@@ -87,17 +87,20 @@ input {
   font-size: 1.5rem;
 }
 
-.grade-value {
+#gradeValue {
   color: #e03f3f;
 }
+
 
 /* Mobile Device */
 @media (max-width:576px) {
   .grade-contianer {
-    width: 90%;
+    width: 80%;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
   }
 
-  /* .grade-title {
+  .grade-title {
     font-size: 1.5rem;
   }
 
@@ -111,11 +114,12 @@ input {
 
   .result {
     font-size: 1.1rem;
-  } */
+  }
+
 }
 
 /* Tablet Device */
-@media (max-width:768px) {
+@media (min-width:577px) and (max-width:768px) {
   .grade-contianer {
     width: 60%;
   }
@@ -138,7 +142,7 @@ input {
 }
 
 /* Laptop Devices */
-@media (max-width:992px) {
+@media (min-width:769px) and (max-width:992px) {
   .grade-contianer {
     width: 60%;
   }
